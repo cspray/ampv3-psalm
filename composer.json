@@ -1,0 +1,16 @@
+{
+  "name": "cspray/ampv3-psalm",
+  "description": "A library to test Amp v3 and Psalm support, ensuring that webmozart/assert will function correctly.",
+  "license": "MIT",
+  "require": {
+    "php": "^8.3",
+    "amphp/amp": "^v3.0",
+    "psr/container": "^2.0",
+    "vimeo/psalm": "dev-master as v6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cspray\\Ampv3Psalm\\": "src"
+    }
+  }
+}
